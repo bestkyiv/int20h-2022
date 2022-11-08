@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Montserrat;
+    font-style: normal;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 12px rgba(18, 198, 255, 1);
+    background-color: #000;
+}
+
+.thankyou_container {
+    height: 100vh;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 2;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 12px rgba(18, 198, 255, 1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: url(../img/StartBack.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 24px;
+}
+
+.thankyou_text {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.main_text {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.link {
+    padding: 5px;
+}
+
+.header {
+    font-size: 50px;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    .thankyou_container {
+        font-size: 16px;
+        line-height: 20px;
+        background-image: url(../img/StartBack.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .thankyou_text {
+        padding: 0;
+    }
+    .header {
+        font-size: 21.5px;
+        margin: 15px;
+    }
+    .link {
+        width: 15%;
+        margin-top: 10px;
+    }
+}
